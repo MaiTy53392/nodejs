@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.7.0",
+    "mongoose-slug-generator": "^1.0.4"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
