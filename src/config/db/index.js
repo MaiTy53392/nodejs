@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-const username = "final";
-const password = "project";
+const username = "";
+const password = "";
 async function connect() {
   try {
     await mongoose.connect(
